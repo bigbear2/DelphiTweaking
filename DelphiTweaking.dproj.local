@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/30 20:47:56.000.063,=d:\Sviluppo\Delphi\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 20:49:16.000.896,d:\Sviluppo\Delphi\Embarcadero\Unit1.dfm=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\MainForm.dfm</Transaction>
+    <Transaction>2020/12/30 20:49:16.000.896,d:\Sviluppo\Delphi\Embarcadero\Unit1.pas=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\MainForm.pas</Transaction>
+    <Transaction>2020/12/30 20:49:30.000.444,d:\Sviluppo\Delphi\Embarcadero\Project1.dproj=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\DelphiTweaking.dproj</Transaction>
+    <Transaction>2020/12/30 21:02:01.000.849,=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\GlobalUnit.pas</Transaction>
+    <Transaction>2020/12/30 23:03:32.000.015,=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 23:03:41.000.427,D:\Sviluppo\Delphi\Progetti\DelphiTweaking\LibraryForm.dfm=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\Unit1.dfm</Transaction>
+    <Transaction>2020/12/30 23:03:41.000.427,D:\Sviluppo\Delphi\Progetti\DelphiTweaking\LibraryForm.pas=D:\Sviluppo\Delphi\Progetti\DelphiTweaking\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

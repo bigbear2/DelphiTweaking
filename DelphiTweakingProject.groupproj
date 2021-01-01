@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AEABF136-2CE8-4623-A8A4-5F371C4F4DC4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DelphiTweaking.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DelphiTweaking">
+        <MSBuild Projects="DelphiTweaking.dproj"/>
+    </Target>
+    <Target Name="DelphiTweaking:Clean">
+        <MSBuild Projects="DelphiTweaking.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiTweaking:Make">
+        <MSBuild Projects="DelphiTweaking.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DelphiTweaking"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DelphiTweaking:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DelphiTweaking:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
